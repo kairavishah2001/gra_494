@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<!-- Head -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Style Guide</title>
+  <link rel="stylesheet" href="css/style.css?v=1.0">
+  <style>
+    h3 {
+        color: #000000;
+    }
+    .headline {
+      color: #000000;
+      font-family: sans-serif;
+      font-size: 24px;
+      text-align: center;
+    }
+    .caption {
+        font-size:  14px;
+        font-family: sans-serif;
+        color: #000000;
+    }
+    .des {
+        font-size:  16px;
+        font-family: sans-serif;
+        color: #000000;
+    }
+    .subSection1, .subSection2, .subSection3 {
+        background-color: white;
+        margin-bottom: 100px;
+        padding: 10px;
+    }
+    .my-button {
+        font-size:  16px;
+        font-family: sans-serif;
+        background-color: #ffffff;
+        color: #333; 
+        padding: 11.5px 20px; 
+        border: 1px solid #e1e1e1; 
+        border-radius: 2px; 
+        cursor: pointer; 
+    }
+
+.my-button:hover {
+        background-color: #000; 
+        color: #fff; 
+    }
+
+    </style>
+</head>
+<!-- Body -->
+<body>
+  <section class="main">
+    <h1>Found Elements Style Guide</h1>
+    <p><a href="index.html">Project Home</a></p>
+    <section class="subSection1">
+      <h3 class="section-head">Atoms</h3>
+      <div>
+        <h3>h2</h3>
+        <h2 class="headline">Discover the Journal</h2>
+      </div>
+      <div>
+        <h3>Background Picture</h3>
+        <img src="./images/backgroundpic.jpg" alt="background picture">
+      </div>
+      <div>
+        <h3>Caption</h3>
+        <p class="caption"> By Rachael Thompson | Home Tours | 14.01.24</p>
+      </div>
+      <div>
+        <h3>Description</h3>
+        <p class="des"> Studio Marrant's Kelsey Coppetti renovated the space with calming neutrals and organic textures inspired by the surrounding landscape.</p>
+      </div>
+      <div>
+        <h3> Button </h3>
+        <button class="my-button">Read More</button>
+      </div>
+     </section> 
+    <section class="subSection2">
+      <h3 class="section-head">Molecules</h3>
+      <div>
+        <h3>Copy Wrapper</h3>
+        <div class="unit-copy-wrapper">
+            <h2 class="headline">Discover the Journal</h2>
+            <img src="./images/backgroundpic.jpg" alt="background picture">
+        </div>
+      </div>
+      <div>
+        <h3>Button and Descriptions</h3>
+        <div class="button-links">
+            <p class="caption"> By Rachael Thompson | Home Tours | 14.01.24</p>
+          <p class="des"> Studio Marrant's Kelsey Coppetti renovated the space with calming neutrals and organic textures inspired by the surrounding landscape.</p>
+          <button class="my-button">Read More</button>
+        </div>
+      </div>
+    </section>
+    <section class="subSection3">
+      <h3 class="section-head">Organism</h3>
+      <div>
+        <h3>Whole Block</h3>
+        <div class="unit-wrapper">
+            <div class="unit-copy-wrapper">
+                <h2 class="headline">Discover the Journal</h2>
+                <img src="./images/backgroundpic.jpg" alt="background picture">
+            </div>
+            <div class="button-links">
+                <p class="caption"> By Rachael Thompson | Home Tours | 14.01.24</p>
+              <p class="des"> Studio Marrant's Kelsey Coppetti renovated the space with calming neutrals and organic textures inspired by the surrounding landscape.</p>
+              <button class="my-button">Read More</button>
+            </div>
+      </div>
+    </section>
+  </section>
+</body>
+</html>
