@@ -51,3 +51,19 @@ function openLightbox() {
     var lightbox = document.getElementById('lightbox');
     lightbox.style.display = 'none';
   }
+
+
+
+  function openModal(videoURL) {
+    var modal = document.getElementById("myModal");
+    var videoEmbed = document.getElementById("video-embed");
+    videoEmbed.src = videoURL;
+    modal.style.display = "block";
+  }
+  
+  function closeModal() {
+    var modal = document.getElementById("myModal");
+    var videoEmbed = document.getElementById("video-embed");
+    videoEmbed.src = ""; // Reset video URL
+    modal.style.display = "none";
+  }
