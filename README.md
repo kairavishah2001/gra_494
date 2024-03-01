@@ -1,7 +1,5 @@
 # Esploreify - Travel Website
-
-![Esploreify](https://kairavishah2001.github.io/gra_494/Travel%20Website/index.html)
-
+![logo](../images/logo.png)
 Esploreify is a travel website aimed at providing users with a seamless experience in discovering and planning their next adventure.
 
 ## CSS Methodology and Design Tools
