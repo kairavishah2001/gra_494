@@ -1,5 +1,6 @@
 # Esploreify - Travel Website
-![logo](Travel Website/images/logo.png)
+<img src="Travel Website/images/logo.png" alt="Logo" style="height: 100px; width:100px;"/>
+
 Esploreify is a travel website aimed at providing users with a seamless experience in discovering and planning their next adventure.
 
 ## CSS Methodology and Design Tools
