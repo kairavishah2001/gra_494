@@ -1,5 +1,5 @@
 # Esploreify - Travel Website
-![logo](../images/logo.png)
+![logo](/images/logo.png)
 Esploreify is a travel website aimed at providing users with a seamless experience in discovering and planning their next adventure.
 
 ## CSS Methodology and Design Tools
